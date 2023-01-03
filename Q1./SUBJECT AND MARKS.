@@ -1,1 +1,22 @@
+//que1.******************************************************************************************************************************************
+//Write a program to display the following output using a single cout statement.
+//subject       marks
+//mathematics   99
+//Computer      91
+//chemistry     79
+
+#include <iostream>
+using namespace std;
+int main() {
+
+    cout<<"subject"<<"       "<<"marks"<<endl<<"mathematics" <<"   "<<"99"<<endl<<"Computer"<<"      "<<"91"<<endl<<"chemistry"<<"     "<<"79";
+
+    return 0;
+}
+
+//output
+//subject       marks
+//mathematics   99
+//Computer      91
+//chemistry     79Program ended with exit code: 0
 
