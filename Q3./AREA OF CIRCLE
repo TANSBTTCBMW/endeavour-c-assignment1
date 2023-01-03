@@ -1,0 +1,23 @@
+//3. WAP to calculate area of circle. (Use pi= 3.14)
+
+
+
+#include <iostream>
+using namespace std;
+int main() {
+    float r, aoc, pi =3.14;  //aco stand for area of circle
+    cout<<"enter the radius of circle"<<endl;
+    cin>>r;
+
+    aoc= pi*r*r;
+    cout<<"the area of circle with given parameters is "<<aoc<<endl;
+    return 0;
+}
+
+
+
+//output:
+//enter the radius of circle
+//5
+//the area of circle with given parameters is 78.5
+//Program ended with exit code: 0
