@@ -1,0 +1,42 @@
+//Optional: Write a function to calculate the factorial value of any integer as an
+//           argument. Call this function from main) and print the results.
+
+
+
+#include <iostream>
+using namespace std;
+
+
+                                      //we make a funcn;
+
+int factorial(int n){
+
+
+    if(n<=1){                         //if we enter 3 as number then it wil check ki ye 1 ya 1 se chota nhi hai so iss if wale part ko skip kar dega.
+        return n;
+    }
+
+    return n* factorial(n-1);         //if 4 enter kra too ye 4*factorial(3) ... to ye print nhi karega as factorial(3) int nhi hai ek function hai so  phirse isko bhi execute karega
+                                      //                          and like wise karte karte value last me return karega
+
+}
+int main() {
+    int a;
+                                         //factorail of a number
+                                           //6! = 6*5*4*3*2*1=720
+    cout<<"enter a number"<<endl;
+    cin>>a;
+    cout<<"the factorial of "<<a<<" is "<<factorial(a)<<endl;
+
+    return 0;
+}
+
+
+/* output
+
+enter a number
+5
+the factorial of 5 is 120
+Program ended with exit code: 0
+
+*/
